@@ -1,0 +1,44 @@
+/* ===================================================================
+ * # UTILITY CLASSES
+ *
+ *
+ * ------------------------------------------------------------------- */
+
+/* flex item alignment classes
+ */
+
+ .u{
+	&-flexitem{
+		&-center{
+			margin: auto;
+			align-self: center;
+		}
+		&-left{
+			margin-right: auto;
+			align-self: center;
+		}
+		&-right{
+			margin-left: auto;
+			align-self: center;
+		}
+		&-x-center {
+			margin-right: auto;
+			margin-left: auto;
+		}
+		&-x-left {
+			margin-right: auto;
+		}
+		&-x-right {
+			margin-left: auto;
+		}
+		&-y-center {
+			align-self: center;
+		}
+		&-y-top {
+			align-self: flex-start;
+		}
+		&-y-bottom {
+			align-self: flex-end;
+		}
+	}
+}

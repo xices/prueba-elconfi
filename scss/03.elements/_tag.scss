@@ -1,0 +1,9 @@
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: calc(.35 * var(--space));
+    background-color: var(--color-gray-4);
+    color: var(--color-gray-14);
+    margin-left: auto;
+}

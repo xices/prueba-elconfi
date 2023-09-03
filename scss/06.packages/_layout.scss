@@ -1,0 +1,17 @@
+.s-pagewrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+  
+
+.entry__content {
+	padding-top: var(--vspace-3);
+}
+
+.s-pagecontent {
+	padding-top: var(--vspace-4);
+	padding-bottom: var(--vspace-3);
+}

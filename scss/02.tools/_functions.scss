@@ -1,0 +1,7 @@
+@use "sass:math";
+@use "../00.settings/variables" as v;
+
+@function calcrem($size) {
+    $rem-size:  math.div($size, 18) + rem;
+    @return $rem-size;
+  }

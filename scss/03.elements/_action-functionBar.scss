@@ -1,0 +1,41 @@
+@use "../02.tools/functions" as f;
+
+.action-functionBar {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+    li {
+      display: flex;
+      padding-left: 0;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-gray-3);
+        border-radius: f.calcrem(43);
+        color: var(--color-black);
+        width: f.calcrem(74);
+        height: f.calcrem(74);
+        &:hover {
+          color: var(--color-gray-14);
+        }
+        span {
+          visibility: collapse;
+          &:before {
+            visibility: initial;
+            position: relative;
+            top: f.calcrem(15);
+            left: f.calcrem(-27);
+          }
+        }
+      }
+      &:nth-child(4) {
+        border-left: 1px solid var(--color-gray-3);
+        padding-left: var(--vspace-0_5);
+      }
+    }
+  }
+}

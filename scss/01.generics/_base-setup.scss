@@ -1,0 +1,54 @@
+/* ===================================================================
+ * # BASE SETUP
+ *
+ *
+ * ------------------------------------------------------------------- */
+
+ html {
+	font-size: var(--base-size);
+	box-sizing: border-box;
+  }
+  
+  * {
+	box-sizing: inherit;
+  
+	&::before, &::after {
+	  box-sizing: inherit;
+	}
+  }
+  
+  html {
+	height: 100%;
+  }
+  
+  body {
+	height: 100%;
+	background-color: var(--color-body);
+	-webkit-overflow-scrolling: touch;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  p {
+	font-size: inherit;
+	text-rendering: optimizeLegibility;
+  }
+  
+  a {
+	text-decoration: none;
+  }
+  
+  svg, img, video {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  pre {
+	overflow: auto;
+  }
+  
+  div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+  }

@@ -1,0 +1,76 @@
+/* --------------------------------------------------------------------
+ * ## medium devices (801px to 1000px)
+ * -------------------------------------------------------------------- */
+ @media screen and (max-width: 700px) {
+	.md-1 {
+	  flex: none;
+	  width: 8.3333333333%;
+	}
+  
+	.md-2 {
+	  flex: none;
+	  width: 16.6666666667%;
+	}
+  
+	.md-3 {
+	  flex: none;
+	  width: 25%;
+	}
+  
+	.md-4 {
+	  flex: none;
+	  width: 33.3333333333%;
+	}
+  
+	.md-5 {
+	  flex: none;
+	  width: 41.6666666667%;
+	}
+  
+	.md-6 {
+	  flex: none;
+	  width: 50%;
+	}
+  
+	.md-7 {
+	  flex: none;
+	  width: 58.3333333333%;
+	}
+  
+	.md-8 {
+	  flex: none;
+	  width: 66.6666666667%;
+	}
+  
+	.md-9 {
+	  flex: none;
+	  width: 75%;
+	}
+  
+	.md-10 {
+	  flex: none;
+	  width: 83.3333333333%;
+	}
+  
+	.md-11 {
+	  flex: none;
+	  width: 91.6666666667%;
+	}
+  
+	.md-12 {
+	  flex: none;
+	  width: 100%;
+	}
+
+	.row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+
+	.column{
+		padding: 0;
+	}
+  }
+  

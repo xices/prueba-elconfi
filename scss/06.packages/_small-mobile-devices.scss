@@ -1,0 +1,21 @@
+/* --------------------------------------------------------------------
+ * ## small mobile devices (up to 400px)
+ * -------------------------------------------------------------------- */
+
+/* stack columns vertically
+ */
+ @media screen and (max-width: 400px) {
+	.row .row {
+	  margin-left: 0;
+	  margin-right: 0;
+	}
+  
+	.column {
+	  flex: none;
+	  width: 100%;
+	  margin-left: 0;
+	  margin-right: 0;
+	  padding: 0;
+	}
+  }
+  

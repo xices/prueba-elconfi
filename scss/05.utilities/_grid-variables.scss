@@ -1,0 +1,25 @@
+/* ------------------------------------------------------------------- 
+ * ## grid variables
+ * ------------------------------------------------------------------- */
+:root {
+  
+    /* widths for rows and containers
+     */
+      --width-narrower    : 1040px;
+      --width-full        : 100%;
+      --width-grid-max    : var(--width-default);
+
+    /* gutter
+    */
+	--gutter            : 2.4rem;
+  
+}
+
+/* on small devices
+*/
+@media screen and (max-width: 600px) {
+	:root {
+		--gutter: 1rem;
+	}
+}
+  

@@ -1,0 +1,172 @@
+/* ===================================================================
+ * # TYPOGRAPHY 
+ *
+ *
+ * ------------------------------------------------------------------- 
+ * type scale - ratio 1:2 | base: 18px
+ * -------------------------------------------------------------------
+ *
+ * --text-huge-3    = (146.60px)
+ * --text-huge-2    = (121.83px)
+ * --text-huge-1    = (101.20px)
+ * --text-display-3 = (84.00px)
+ * --text-display-2 = (69.66px)
+ * --text-display-1 = (57.72px)
+ * --text-xxxl      = (47.77px)
+ * --text-xxl       = (39.47px)
+ * --text-xl        = (32.56px)
+ * --text-lg        = (26.80px)
+ * --text-md        = (22.00px)
+ * --text-size      = (18.00px) BASE
+ * --text-sm        = (14.67px)
+ * --text-xs        = (11.89px)
+ *
+ * -------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------
+* ## base type styles
+* -------------------------------------------------------------------- */
+
+body {
+	font-family: var(--font-1);
+	font-size: var(--base-font-size);
+	font-weight: 400;
+	line-height: var(--vspace-1);
+	color: var(--color-text);
+  }
+  
+  /* links
+   */
+  
+  a {
+	color: var(--color-link);
+	transition: all 0.3s ease-in-out;
+  
+	&:focus, &:hover, &:active {
+	  color: var(--color-link-hover) !important;
+	}
+  
+	&:hover, &:active {
+	  outline: 0;
+	}
+  }
+  
+  /* headings
+   */
+  
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: var(--font-2);
+	font-weight: 700;
+	color: var(--color-text-dark);
+	font-variant-ligatures: common-ligatures;
+	text-rendering: optimizeLegibility;
+  }
+  
+  h1, .h1 {
+	margin-top: var(--vspace-2_5);
+	margin-bottom: var(--vspace-0_75);
+  }
+  
+  h2, .h2, h3, .h3, h4, .h4 {
+	margin-bottom: var(--vspace-0_75);
+  }
+  
+  h5, .h5, h6, .h6 {
+	margin-top: var(--vspace-1_75);
+	margin-bottom: var(--vspace-0_5);
+  }
+  
+  h1, .h1 {
+	font-size: var(--text-display-2);
+	line-height: calc(2.25 * var(--space));
+	letter-spacing: -0.015em;
+  }
+  
+  @media screen and (max-width: 500px) {
+	h1, .h1 {
+	  font-size: var(--text-xxxl);
+	  line-height: calc(1.625 * var(--space));
+	}
+  }
+  
+  h2, .h2 {
+	font-size: var(--text-xxl);
+	line-height: calc(1.375 * var(--space));
+	letter-spacing: -0.012em;
+  }
+  
+  h3, .h3 {
+	font-size: var(--text-xl);
+	line-height: calc(1.250 * var(--space)); //1.125
+  }
+  
+  h4, .h4 {
+	font-size: var(--text-lg);
+	line-height: var(--vspace-1);
+  }
+  
+  h5, .h5 {
+	font-size: var(--text-md);
+	line-height: var(--vspace-0_875);
+  }
+  
+  h6, .h6 {
+	font-family: var(--font-1);
+	font-weight: 600;
+	font-size: var(--text-sm);
+	line-height: var(--vspace-0_75);
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+  }
+  
+  /* emphasis, italic,
+   * strong, bold and small text
+   */
+  
+  em, i, strong, b {
+	font-size: inherit;
+	line-height: inherit;
+  }
+  
+  em, i {
+	font-style: italic;
+  }
+  
+  strong, b {
+	font-weight: 600;
+	color: var(--color-text-dark);
+  }
+  
+  small {
+	font-size: 80%;
+	font-weight: 400;
+	line-height: var(--vspace-0_5);
+  }
+
+  
+  /* figures
+   */
+  
+  figure img, p img {
+	margin: 0;
+	vertical-align: bottom;
+  }
+  
+  figure {
+	display: block;
+	margin-left: 0;
+	margin-right: 0;
+  
+	img + figcaption {
+	  margin-top: var(--vspace-1);
+	}
+  }
+  
+  figcaption {
+	/* font-style: italic; */
+	font-size: var(--text-sm);
+	text-align: center;
+	margin-bottom: 0;
+  }
+  
+  

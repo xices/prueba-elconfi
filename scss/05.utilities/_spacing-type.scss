@@ -1,0 +1,27 @@
+/* --------------------------------------------------------------------
+ * ## spacing
+ * -------------------------------------------------------------------- */
+ fieldset,
+ button,
+ .btn {
+     margin-bottom: var(--vspace-0_5);
+ }
+ 
+ input,
+ textarea,
+ select,
+ pre,
+ blockquote,
+ figure,
+ figcaption,
+ table,
+ p,
+ ul,
+ ol,
+ dl,
+ form,
+ img,
+ .video-container,
+ .ss-custom-select {
+     margin-bottom: var(--vspace-1);
+ }

@@ -1,0 +1,68 @@
+/* ------------------------------------------------------------------- 
+ * ## colors
+ * ------------------------------------------------------------------- */
+ 
+:root {
+    /* colors confi
+     */
+      --color-1: hsla(0, 69%, 51%, 1);
+      --color-2: hsla(227, 48%, 64%, 1);
+      --color-3: hsla(51, 36%, 96%, 1);
+  
+    /* color variations
+     */
+      --color-2-lighter              : hsla(196, 45%, 39%, 1); // <<<<<<<<<<<<<<<
+      --color-2-dark                 : hsla(196, 45%, 39%, 1); // <<<<<<<<<<<<<<<
+  
+  
+    /* shades 
+    */
+      --color-black                  : #000000;
+      --color-gray-19                : #121212;
+      --color-gray-18                : #242525;
+      --color-gray-17                : #363737;
+      --color-gray-16                : #484949;
+      --color-gray-15                : #5b5c5c;
+      --color-gray-14                : #6d6e6e;
+      --color-gray-13                : #7f8080;
+      --color-gray-12                : #919292;
+      --color-gray-11                : #a3a5a5;
+      --color-gray-10                : #b5b7b7;
+      --color-gray-9                 : #bcbebe;
+      --color-gray-8                 : #c4c5c5;
+      --color-gray-7                 : #cbcdcd;
+      --color-gray-6                 : #d3d4d4;
+      --color-gray-5                 : #dadbdb;
+      --color-gray-4                 : #e1e2e2;
+      --color-gray-3                 : #e9e9e9;
+      --color-gray-2                 : #f0f1f1;
+      --color-gray-1                 : #f8f8f8;
+      --color-white                  : #ffffff;
+      --color-background             : #c9c5c5;
+  
+    /* text
+     */
+      --color-text                   : var(--color-gray-18);
+      --color-text-dark              : #181818;
+      --color-text-light             : var(--color-gray-14);
+      --color-placeholder            : var(--color-gray-12);
+  
+    /* link
+     */
+      --color-link                   : var(--color-1);
+      --color-link-hover             : var(--color-2-lighter);  // <<<<<<<<<<<<<<<
+      --color-link-active            : var(--color-2-lighter);  // <<<<<<<<<<<<<<<
+
+  
+    /* preloader
+     */
+      --color-preloader-bg           : var(--color-2-dark); // <<<<<<<<<<<<<<<
+      --color-loader                 : var(--color-white);
+      --color-loader-light           : var(--color-2-light);
+  
+    /* others
+     */
+      --color-body                   : var(--color-background);
+      --color-border                 : rgba(0, 0, 0, .1);
+      --border-radius                : 5px;
+  }
